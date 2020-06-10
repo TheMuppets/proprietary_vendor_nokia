@@ -1,0 +1,15 @@
+service vendor.stbDebugCtl-hal-1-0 /vendor/bin/vendor.fih.hardware.stabilityDebugCtl@1.0-service
+    class hal
+    user system
+    group system root
+
+#Property for vendor.stbDebugCtl-hal-1-0 service maually activate/deactivate
+on property:persist.vendor.stbDebugCtlEnable=1
+    start vendor.stbDebugCtl-hal-1-0
+    
+on property:persist.vendor.stbDebugCtlEnable=0
+    stop vendor.stbDebugCtl-hal-1-0
+
+#on property:persist.vendor.dSar-hal-1-0=restart
+#    stop vendor.dSar-hal-1-0
+#    setprop persist.vendor.dSar-hal-1-0 on
