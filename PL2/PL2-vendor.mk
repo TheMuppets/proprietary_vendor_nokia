@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/bin/gf_cmd_test_gxfp5288_c1n:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp5288_c1n \
     vendor/nokia/PL2/proprietary/vendor/bin/headset_mic_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_off.sh \
     vendor/nokia/PL2/proprietary/vendor/bin/headset_mic_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_on.sh \
-    vendor/nokia/PL2/proprietary/vendor/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service \
     vendor/nokia/PL2/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
     vendor/nokia/PL2/proprietary/vendor/bin/init.drg.lcm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.drg.lcm.sh \
     vendor/nokia/PL2/proprietary/vendor/bin/init.mdm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.mdm.sh \
@@ -62,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/bin/qca6234-service.sh:$(TARGET_COPY_OUT_VENDOR)/bin/qca6234-service.sh \
     vendor/nokia/PL2/proprietary/vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:$(TARGET_COPY_OUT_VENDOR)/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/nokia/PL2/proprietary/vendor/bin/remove_data_ramdisk.sh:$(TARGET_COPY_OUT_VENDOR)/bin/remove_data_ramdisk.sh \
-    vendor/nokia/PL2/proprietary/vendor/bin/wpa_cli:$(TARGET_COPY_OUT_VENDOR)/bin/wpa_cli \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_1280x720.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2048x1536.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2048x1536.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2592x1944.ncf \
@@ -135,7 +133,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
     vendor/nokia/PL2/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/init/android.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/init/rild.legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.legacy.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/init/vendor.rild.legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.rild.legacy.rc \
@@ -187,24 +184,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9335.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9340.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9340.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/sound_trigger_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_platform_info.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/thermal-engine-PL2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-PL2.conf \
     vendor/nokia/PL2/proprietary/vendor/etc/usb_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/usb_audio_policy_configuration.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.atrace@1.0-service.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/vintf/manifest/android.hardware.cas@1.1-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.cas@1.1-service.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/aoa_cldb_falcon.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_falcon.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/aoa_cldb_swl14.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/aoa_cldb_swl14.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_B2N_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_B2N_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_C1N_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_C1N_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_CTL_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_CTL_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_HG1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_HG1_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_SAT_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SAT_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_SD1_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SD1_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_SS2_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_SS2_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_TAS_cal.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_TAS_cal.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/bdf/bdwlan_def.bin:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/bdf/bdwlan_def.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/wifi/fstman.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/fstman.ini \
     vendor/nokia/PL2/proprietary/vendor/firmware/TAS2557MSSMono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono.bin \
     vendor/nokia/PL2/proprietary/vendor/firmware/TAS2557MSSMono_B2N.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N.bin \
     vendor/nokia/PL2/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt.bin \
@@ -274,9 +259,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
     vendor/nokia/PL2/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/PL2/proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.broadcastradio@1.0-impl.so \
-    vendor/nokia/PL2/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl.so \
     vendor/nokia/PL2/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.1-impl.so \
-    vendor/nokia/PL2/proprietary/vendor/lib/hw/lights.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.sdm660.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libactuator_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbthost_if.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
@@ -358,8 +341,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_holitech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_holitech_eeprom.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_pl2_holitech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_pl2_holitech.so \
     vendor/nokia/PL2/proprietary/vendor/lib/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater_msm.so \
-    vendor/nokia/PL2/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
-    vendor/nokia/PL2/proprietary/vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
@@ -367,10 +348,8 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.broadcastradio@1.0-impl.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/fingerprint.gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3208_b2n.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/fingerprint.gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp5288_c1n.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/hw/lights.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.sdm660.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libgf_ca_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3208_b2n.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libgf_ca_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp5288_c1n.so \
@@ -380,12 +359,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.hostapd@1.0.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.hostapd@1.1.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@2.0.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/nokia/PL2/proprietary/vendor/usr/idc/ff_key.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/ff_key.idc \
     vendor/nokia/PL2/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc \
     vendor/nokia/PL2/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
