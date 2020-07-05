@@ -1,4 +1,4 @@
-# Copyright (C) 2019-2020 The LineageOS Project
+# Copyright (C) 2020 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -430,7 +430,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/nokia/DRG/proprietary/vendor/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest.xml \
+    vendor/nokia/DRG/proprietary/vendor/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest.xml \
     vendor/nokia/DRG/proprietary/vendor/pre-default.prop:$(TARGET_COPY_OUT_VENDOR)/pre-default.prop \
     vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/hlos \
     vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/ramdumps \
@@ -466,7 +466,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/readwrite \
     vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/shared \
     vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/ramdumps \
     vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/readonly/firmware \
     vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/readonly/vendor/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/readonly/vendor/firmware \
     vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/readwrite \
