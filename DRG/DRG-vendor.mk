@@ -43,7 +43,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/bin/fqcaudioloopback_sd1.sh:$(TARGET_COPY_OUT_VENDOR)/bin/fqcaudioloopback_sd1.sh \
     vendor/nokia/DRG/proprietary/vendor/bin/headset_mic_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_off.sh \
     vendor/nokia/DRG/proprietary/vendor/bin/headset_mic_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_on.sh \
-    vendor/nokia/DRG/proprietary/vendor/bin/hw/android.hardware.light@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.light@2.0-service \
     vendor/nokia/DRG/proprietary/vendor/bin/init.crda.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.crda.sh \
     vendor/nokia/DRG/proprietary/vendor/bin/init.drg.lcm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.drg.lcm.sh \
     vendor/nokia/DRG/proprietary/vendor/bin/init.mdm.sh:$(TARGET_COPY_OUT_VENDOR)/bin/init.mdm.sh \
@@ -89,7 +88,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/etc/audio_platform_info_tasha_skus.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tasha_skus.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/audio_platform_info_tashalite.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tashalite.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/audio_platform_info_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_tavil.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/audio_policy.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy.conf \
     vendor/nokia/DRG/proprietary/vendor/etc/audio_policy_volumes.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_policy_volumes.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
     vendor/nokia/DRG/proprietary/vendor/etc/audio_tuning_mixer_tasha.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer_tasha.txt \
@@ -101,7 +99,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
     vendor/nokia/DRG/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/init/android.hardware.light@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.light@2.0-service.rc \
     vendor/nokia/DRG/proprietary/vendor/etc/init/init.qti.fm.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.qti.fm.rc \
     vendor/nokia/DRG/proprietary/vendor/etc/init/rild.legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/rild.legacy.rc \
     vendor/nokia/DRG/proprietary/vendor/etc/init/vendor.rild.legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.rild.legacy.rc \
@@ -109,14 +106,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_performance_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sdm660_v1.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_sdm660_v1.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_profiles_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sdm660_v1.xml \
-    vendor/nokia/DRG/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/mixer_paths_b2n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/mixer_paths_b2n_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n_cn.xml \
     vendor/nokia/DRG/proprietary/vendor/etc/mixer_paths_c1n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_c1n.xml \
@@ -182,15 +171,14 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/firmware/gxfp3258_drg.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.mdt \
     vendor/nokia/DRG/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/nokia/DRG/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
+    vendor/nokia/DRG/proprietary/vendor/lib/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libEGL_adreno.so \
+    vendor/nokia/DRG/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.broadcastradio@1.0-impl.so \
-    vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.light@2.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.1-impl.so \
-    vendor/nokia/DRG/proprietary/vendor/lib/hw/lights.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/lights.sdm660.so \
-    vendor/nokia/DRG/proprietary/vendor/lib/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libEGL_adreno.so \
     vendor/nokia/DRG/proprietary/vendor/lib/libactuator_fp5510_drg_main.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_fp5510_drg_main.so \
     vendor/nokia/DRG/proprietary/vendor/lib/libarcsoft_dualcam_refocus_DRG.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_dualcam_refocus_DRG.so \
     vendor/nokia/DRG/proprietary/vendor/lib/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbthost_if.so \
@@ -407,20 +395,16 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/lib/libmmcamera_s5k3p9sx_drg_main_hlt_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p9sx_drg_main_hlt_eeprom.so \
     vendor/nokia/DRG/proprietary/vendor/lib/libmmcamera_s5k5e9_drg_aux.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e9_drg_aux.so \
     vendor/nokia/DRG/proprietary/vendor/lib/libmmcamera_s5k5e9_drg_aux_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k5e9_drg_aux_eeprom.so \
-    vendor/nokia/DRG/proprietary/vendor/lib/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/libq3dtools_adreno.so \
     vendor/nokia/DRG/proprietary/vendor/lib/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater_msm.so \
     vendor/nokia/DRG/proprietary/vendor/lib/modules/qca_cld3_wlan.ko:$(TARGET_COPY_OUT_VENDOR)/lib/modules/qca_cld3_wlan.ko \
     vendor/nokia/DRG/proprietary/vendor/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wigig.netperftuner@1.0.so \
+    vendor/nokia/DRG/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.broadcastradio@1.0-impl.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/hw/android.hardware.light@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.light@2.0-impl.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/hw/lights.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/lights.sdm660.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libEGL_adreno.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
-    vendor/nokia/DRG/proprietary/vendor/lib64/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libq3dtools_adreno.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
@@ -431,50 +415,4 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest.xml \
-    vendor/nokia/DRG/proprietary/vendor/pre-default.prop:$(TARGET_COPY_OUT_VENDOR)/pre-default.prop \
-    vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/readonly/vendor/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/readonly/vendor/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/apq/gnss/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/apq/gnss/shared \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/adsp/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/adsp/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/adsp/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/adsp/readonly/vendor/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/readonly/vendor/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/adsp/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/adsp/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/adsp/shared \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/cdsp/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/cdsp/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/cdsp/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/cdsp/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/cdsp/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/cdsp/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/cdsp/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/cdsp/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/cdsp/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/cdsp/shared \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/mpss/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/mpss/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/mpss/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/mpss/readonly/vendor/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/readonly/vendor/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/mpss/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/mpss/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/mpss/shared \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/slpi/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/slpi/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/slpi/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/slpi/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/slpi/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/slpi/shared \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/mdm/tn/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/mdm/tn/shared \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/hlos:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/hlos \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/ramdumps:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/ramdumps \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/readonly/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/readonly/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/readonly/vendor/firmware:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/readonly/vendor/firmware \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/readwrite:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/readwrite \
-    vendor/nokia/DRG/proprietary/vendor/rfs/msm/cdsp/shared:$(TARGET_COPY_OUT_VENDOR)/rfs/msm/cdsp/shared \
-    vendor/nokia/DRG/proprietary/vendor/usr/idc/ff_key.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/ff_key.idc \
-    vendor/nokia/DRG/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc \
-    vendor/nokia/DRG/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
-    vendor/nokia/DRG/proprietary/vendor/usr/keylayout/elan.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/elan.kl \
-    vendor/nokia/DRG/proprietary/vendor/usr/keylayout/ff_key.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ff_key.kl \
-    vendor/nokia/DRG/proprietary/vendor/usr/keylayout/goodix_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp.kl \
-    vendor/nokia/DRG/proprietary/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
+    vendor/nokia/DRG/proprietary/vendor/pre-default.prop:$(TARGET_COPY_OUT_VENDOR)/pre-default.prop
