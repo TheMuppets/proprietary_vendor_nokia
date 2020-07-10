@@ -414,5 +414,5 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.supplicant@2.1.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wifi.wifilearner@1.0.so \
     vendor/nokia/DRG/proprietary/vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so \
-    vendor/nokia/DRG/proprietary/vendor/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_ODM)/odm/etc/vintf/manifest.xml \
+    vendor/nokia/DRG/proprietary/vendor/odm/etc/vintf/manifest.xml:$(TARGET_COPY_OUT_VENDOR)/odm/etc/vintf/manifest.xml \
     vendor/nokia/DRG/proprietary/vendor/pre-default.prop:$(TARGET_COPY_OUT_VENDOR)/pre-default.prop
