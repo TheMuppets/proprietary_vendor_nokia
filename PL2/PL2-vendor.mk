@@ -86,14 +86,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/rear/ISO800_3840x2160.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/rear/ISO800_3840x2160.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/rear/ISO800_4608x3456.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/rear/ISO800_4608x3456.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/a2dp_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/a2dp_audio_policy_configuration.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/Bluetooth_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/General_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/Global_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/Handset_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/Hdmi_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/Headset_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/Speaker_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/B2N/B2N_ICT/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/B2N/B2N_ICT/workspaceFile.qwsp \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Bluetooth_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/General_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Global_cal.acdb \
@@ -101,7 +93,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Hdmi_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Headset_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb \
-    vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/workspaceFile.qwsp \
     vendor/nokia/PL2/proprietary/vendor/etc/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio/audio_policy_configuration.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_configs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_configs.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_effects.conf:$(TARGET_COPY_OUT_VENDOR)/etc/audio_effects.conf \
@@ -138,17 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/init/vendor.rild.legacy.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.rild.legacy.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/libnfc-nxp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nxp.conf \
     vendor/nokia/PL2/proprietary/vendor/etc/listen_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/listen_platform_info.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_google_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_audio.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_google_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_telephony.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_google_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_google_video_le.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_video_le.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_performance_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_performance_sdm660_v1.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_sdm660_v1.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_codecs_vendor_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_vendor_audio.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_profiles_sdm660_v1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_sdm660_v1.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_b2n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_b2n_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_b2n_cn.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_c1n.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_c1n.xml \
@@ -168,16 +148,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_tavil.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_tavil.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_wcd9335.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_wcd9335.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/ozo_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ozo_config.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/permissions/android.hardware.light.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.light.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/permissions/android.hardware.vulkan.version-1_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.vulkan.version-1_1.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/permissions/android.hardware.wifi.passpoint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.passpoint.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/permissions/android.software.device_id_attestation.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.device_id_attestation.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/r_submix_audio_policy_configuration.xml:$(TARGET_COPY_OUT_VENDOR)/etc/r_submix_audio_policy_configuration.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn81_rfreg.bin \
-    vendor/nokia/PL2/proprietary/vendor/etc/sensors/sensor_def_qcomdev_b2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_b2.conf \
-    vendor/nokia/PL2/proprietary/vendor/etc/sensors/sensor_def_qcomdev_c1.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_c1.conf \
     vendor/nokia/PL2/proprietary/vendor/etc/sensors/sensor_def_qcomdev_pl2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_pl2.conf \
     vendor/nokia/PL2/proprietary/vendor/etc/sound_trigger_mixer_paths.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:$(TARGET_COPY_OUT_VENDOR)/etc/sound_trigger_mixer_paths_wcd9330.xml \
@@ -340,7 +314,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_holitech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_holitech_eeprom.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_pl2_holitech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_pl2_holitech.so \
-    vendor/nokia/PL2/proprietary/vendor/lib/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib/librecovery_updater_msm.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/egl/libEGL_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_adreno.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
@@ -356,13 +329,5 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib64/libgf_hal_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3208_b2n.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libgf_hal_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp5288_c1n.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/librecovery_updater_msm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librecovery_updater_msm.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
-    vendor/nokia/PL2/proprietary/vendor/usr/idc/ff_key.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/ff_key.idc \
-    vendor/nokia/PL2/proprietary/vendor/usr/idc/goodix_fp.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/goodix_fp.idc \
-    vendor/nokia/PL2/proprietary/vendor/usr/idc/uinput-fpc.idc:$(TARGET_COPY_OUT_VENDOR)/usr/idc/uinput-fpc.idc \
-    vendor/nokia/PL2/proprietary/vendor/usr/keylayout/elan.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/elan.kl \
-    vendor/nokia/PL2/proprietary/vendor/usr/keylayout/ff_key.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/ff_key.kl \
-    vendor/nokia/PL2/proprietary/vendor/usr/keylayout/goodix_fp.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/goodix_fp.kl \
-    vendor/nokia/PL2/proprietary/vendor/usr/keylayout/uinput-fpc.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/uinput-fpc.kl
+    vendor/nokia/PL2/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
