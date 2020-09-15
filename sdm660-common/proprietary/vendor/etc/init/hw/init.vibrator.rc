@@ -1,3 +1,0 @@
-on boot
-	chown system system /sys/class/timed_output/vibrator/pattern
-	chmod 644 /sys/class/timed_output/vibrator/pattern
