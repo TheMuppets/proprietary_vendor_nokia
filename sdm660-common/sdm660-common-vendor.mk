@@ -236,20 +236,39 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/TAS2557MSSMono_DRG.ftcfg:$(TARGET_COPY_OUT_VENDOR)/bin/TAS2557MSSMono_DRG.ftcfg \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/aheadset_mic_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/aheadset_mic_to_aheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/aheadset_mic_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/aheadset_mic_to_aheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_aheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_aheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_dheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_dheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_aheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_aheadset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_dheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_dheadset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/btconfig:$(TARGET_COPY_OUT_VENDOR)/bin/btconfig \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnd:$(TARGET_COPY_OUT_VENDOR)/bin/cnd \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnss_diag:$(TARGET_COPY_OUT_VENDOR)/bin/cnss_diag \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cplay:$(TARGET_COPY_OUT_VENDOR)/bin/cplay \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/csysservice:$(TARGET_COPY_OUT_VENDOR)/bin/csysservice \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dheadset_mic_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dheadset_mic_to_dheadset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dheadset_mic_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dheadset_mic_to_dheadset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_callback_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_callback_sample \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_dci_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_dci_sample \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_klog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_klog \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic1_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic1_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic1_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic1_to_headset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic2_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic2_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic2_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic2_to_headset_recv_on.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic3_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic3_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic3_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic3_to_headset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
@@ -258,17 +277,21 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fmconfig:$(TARGET_COPY_OUT_VENDOR)/bin/fmconfig \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fmfactorytest:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytest \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fmfactorytestserver:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytestserver \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/fqcaudioloopback.sh:$(TARGET_COPY_OUT_VENDOR)/bin/fqcaudioloopback.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fqctouchpanel:$(TARGET_COPY_OUT_VENDOR)/bin/fqctouchpanel \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fstman:$(TARGET_COPY_OUT_VENDOR)/bin/fstman \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/garden_app:$(TARGET_COPY_OUT_VENDOR)/bin/garden_app \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/gf_cmd_test_gxfp3208_b2n:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp3208_b2n \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/gf_cmd_test_gxfp3258_drg:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp3258_drg \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/gf_cmd_test_gxfp5288_c1n:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp5288_c1n \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/gtptest:$(TARGET_COPY_OUT_VENDOR)/bin/gtptest \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hdcp1prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp1prov \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hdcp2p2prov:$(TARGET_COPY_OUT_VENDOR)/bin/hdcp2p2prov \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/headset_mic_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_off.sh \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/headset_mic_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.atrace@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.atrace@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
@@ -277,15 +300,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.keymaster@3.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@3.0-service-qti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.0-service-qti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service.sec:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service.sec \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.vibrator@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.vibrator@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/qcrild:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrild \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.display.color@1.0-service \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.fih.hardware.box@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.fih.hardware.box@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.fih.hardware.ifaa@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.fih.hardware.ifaa@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@1.2-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.qti.hardware.factory@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.factory@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.perf@2.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
@@ -324,6 +344,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qdcm_calib_data_DRG_CTC_OTM1911A_FHD_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/bin/qdcm_calib_data_DRG_CTC_OTM1911A_FHD_video_mode_dsi_panel.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qfp-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/qfp-daemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qjpeg-dma-test:$(TARGET_COPY_OUT_VENDOR)/bin/qjpeg-dma-test \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/qmi-framework-tests/qmi_test_mt_client_init_instance:$(TARGET_COPY_OUT_VENDOR)/bin/qmi-framework-tests/qmi_test_mt_client_init_instance \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qmi_simple_ril_test:$(TARGET_COPY_OUT_VENDOR)/bin/qmi_simple_ril_test \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qrtr-cfg:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-cfg \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qrtr-lookup:$(TARGET_COPY_OUT_VENDOR)/bin/qrtr-lookup \
@@ -352,7 +373,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/ti_factorytest:$(TARGET_COPY_OUT_VENDOR)/bin/ti_factorytest \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/time_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/time_daemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/tinymix2:$(TARGET_COPY_OUT_VENDOR)/bin/tinymix2 \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/vendor.fih.hardware.stabilityDebugCtl@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.fih.hardware.stabilityDebugCtl@1.0-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/vendor.qti.hardware.soter@1.0-provision:$(TARGET_COPY_OUT_VENDOR)/bin/vendor.qti.hardware.soter@1.0-provision \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/vendor_cmd_tool:$(TARGET_COPY_OUT_VENDOR)/bin/vendor_cmd_tool \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/wdsdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/wdsdaemon \
@@ -363,17 +383,16 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/xtwifi-client:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-client \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/xtwifi-inet-agent:$(TARGET_COPY_OUT_VENDOR)/bin/xtwifi-inet-agent \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/8716.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716.ini \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/8716_B2N.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_B2N.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/8716_PL2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_PL2.ini \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/8716_S2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_S2.ini \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/8716_S3.ini:$(TARGET_COPY_OUT_VENDOR)/etc/8716_S3.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/SKUID_Info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/SKUID_Info.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/acdbdata/adsp_avs_config.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/adsp_avs_config.acdb \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/calibration_test.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibration_test.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/megviifacepp_0_5_2_model_fast:$(TARGET_COPY_OUT_VENDOR)/etc/camera/megviifacepp_0_5_2_model_fast \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/mgbeautify_1_2_4_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mgbeautify_1_2_4_model \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/s5k4h8_pl2_holitech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_pl2_holitech_chromatix.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -401,25 +420,19 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile4.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile5.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/ctl/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ctl/test_sensor_0.ini \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/ctl/test_sensor_1.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ctl/test_sensor_1.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/drg/test_sensor_1.ini:$(TARGET_COPY_OUT_VENDOR)/etc/drg/test_sensor_1.ini \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/drg/test_sensor_2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/drg/test_sensor_2.ini \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/drp/test_sensor_2.ini:$(TARGET_COPY_OUT_VENDOR)/etc/drp/test_sensor_2.ini \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/ftm_test_config:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/hostapd/hostapd.accept:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.accept \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/hostapd/hostapd.deny:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd.deny \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/hostapd/hostapd_default.conf:$(TARGET_COPY_OUT_VENDOR)/etc/hostapd/hostapd_default.conf \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.atrace@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.atrace@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.drm@1.2-service.widevine.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.drm@1.2-service.widevine.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.gnss@2.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.gnss@2.0-service-qti.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.keymaster@3.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.keymaster@3.0-service-qti.rc \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/android.hardware.vibrator@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.vibrator@1.0-service.rc \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/bboxservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/bboxservice.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/cnd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/cnd.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/csysservice.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/csysservice.rc \
@@ -451,19 +464,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/qcrild.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrild.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/tloc_daemon.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/tloc_daemon.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.fih.hardware.box@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.fih.hardware.box@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.fih.hardware.ifaa@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.fih.hardware.ifaa@1.0-service.rc \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.fih.hardware.stabilityDebugCtl@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.fih.hardware.stabilityDebugCtl@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.alarm@1.0-service.rc \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.factory@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.factory@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.perf@2.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.soter@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.hardware.wifi.wifilearner@1.0-service.rc \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/libnfc-brcm.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/libnfc-brcm_PN553_C1N.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-brcm_PN553_C1N.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/libnfc-mtp-NQ3XX.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-mtp-NQ3XX.conf \
@@ -480,12 +489,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/libnfc-qrd_rf2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-qrd_rf2.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/libnfc-sec-vendor.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-sec-vendor.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/ozo_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/ozo_config.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/perf/commonresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/commonresourceconfigs.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/perf/perfboostsconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfboostsconfig.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/perf/targetconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetconfig.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/perf/targetresourceconfigs.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/targetresourceconfigs.xml \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/permissions/com.android.nfc_extras.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.android.nfc_extras.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/permissions/com.gsma.services.nfc.sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.gsma.services.nfc.sec.xml \
+    vendor/nokia/sdm660-common/proprietary/vendor/etc/permissions/com.nxp.mifare.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.nxp.mifare.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/permissions/qti_fingerprint_interface.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/qti_fingerprint_interface.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/permissions/vendor.qti.hardware.factory.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.qti.hardware.factory.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/scve/facereco/gModel.dat:$(TARGET_COPY_OUT_VENDOR)/etc/scve/facereco/gModel.dat \
@@ -498,10 +510,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/sensors/sensor_def_qcomdev_tas.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_tas.conf \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/test_sensor_0.ini:$(TARGET_COPY_OUT_VENDOR)/etc/test_sensor_0.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.gnss@2.0-service-qti.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.qti.gnss@3.0-service.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/wbg_bt.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_bt.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/wbg_wifi.sh:$(TARGET_COPY_OUT_VENDOR)/etc/wbg_wifi.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891M04.drc:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891M04.drc \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891M04.vstep:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891M04.vstep \
@@ -512,15 +520,30 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891V04.drc:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891V04.drc \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/T9891V04.vstep:$(TARGET_COPY_OUT_VENDOR)/firmware/T9891V04.vstep \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TAS2557MSSMono.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TAS2557MSSMono_B2N.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_B2N_dvt_ICTspk.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TAS2557MSSMono_CTL.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_CTL.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TAS2557MSSMono_DRG.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TAS2557MSSMono_DRG.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891.cnt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891.cnt_preformat.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891.cnt_preformat.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891.speaker:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891.speaker \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891N1A_Dec2015.config:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891N1A_Dec2015.config \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_N1A_11_1_31_NL3_HQ.patch:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_N1A_11_1_31_NL3_HQ.patch \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_pl2.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_pl2.cnt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_pl2.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_pl2.ini \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_sd1.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.cnt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_sd1.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1.ini \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_sd1_dvt.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.cnt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9891_sd1_dvt.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9891_sd1_dvt.ini \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9894_ctl.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_ctl.cnt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9894_ctl.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_ctl.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9894_drg.cnt:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_drg.cnt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TFA9894_drg.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/TFA9894_drg.ini \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716_B2N.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_B2N.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716_PL2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_PL2.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716_S2.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S2.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/TP_Firmware_FT8716_S3.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/TP_Firmware_FT8716_S3.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a225_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a225_pfp.fw \
@@ -533,11 +556,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a420_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pfp.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a420_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a420_pm4.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a508_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/a508_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a508_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.b02 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a508_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.elf \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/a508_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a508_zap.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a512_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/a512_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a512_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.b02 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a512_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.elf \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/a512_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a512_zap.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a530_gpmu.fw2:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_gpmu.fw2 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a530_pfp.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pfp.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/a530_pm4.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/a530_pm4.fw \
@@ -573,33 +600,69 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b02 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b03 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b04 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b05 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b06 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/cppf.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/cppf.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b02 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b03 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b04 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b05 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b06 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/elanfp64.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/elanfp64.mdt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b01 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b02 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b03 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b04 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b05 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b06 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/focalfp.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/focalfp.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_config.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config.cfg \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_config_hlt.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt.cfg \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_config_hlt_ctl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_hlt_ctl.cfg \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_config_oflim.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_oflim.cfg \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_config_truly.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_config_truly.cfg \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_firmware_hlt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_firmware_hlt_ctl.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_hlt_ctl.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_firmware_oflim.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_oflim.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/goodix_firmware_truly.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix_firmware_truly.bin \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b01 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b02 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b03 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b04 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b05 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b06 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3208_b2n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3208_b2n.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b02 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b03 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b04 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b05 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b06 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp3258_drg.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp3258_drg.mdt \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b01 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b02 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b03 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b04 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b05 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b06 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/gxfp5288_c1n.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/gxfp5288_c1n.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3.fw \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm1.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm1.txt \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/iris3_inParm10.txt:$(TARGET_COPY_OUT_VENDOR)/firmware/iris3_inParm10.txt \
@@ -625,12 +688,14 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/novatek_ts_fw.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/novatek_ts_fw.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b00 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b01 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b02 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b03 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b04 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b05 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b06 \
     vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.b07 \
+    vendor/nokia/sdm660-common/proprietary/vendor/firmware/widevine.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/widevine.mdt \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common-util.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@2.0-util.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/android.hardware.audio.common@4.0-util.so \
@@ -659,13 +724,18 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib/hal_libnfc.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@2.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio.effect@4.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@2.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth.audio@2.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.broadcastradio@1.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.graphics.mapper@2.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.vibrator@1.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/android.hardware.soundtrigger@2.1-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.soundtrigger@2.1-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.bluetooth_qti.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.default.so \
@@ -688,7 +758,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vibrator.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/vulkan.sdm660.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscmservice.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsdpl.so \
@@ -742,11 +811,11 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib/libStDrvInt.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib/libSubSystemShutdown.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib/libUBWC.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/lib_bbox_flog.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib_bbox_flog.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libactuator_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
@@ -774,6 +843,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbluetooth_audio_session_qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbt-hidlclient.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbthost_if.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib/libbtnv.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libc++_shared.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc++_shared.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2d30_bltlib.so \
@@ -782,6 +852,78 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcert_parse.wpa_s.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcert_parse.wpa_s.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_liveshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_snapshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_default_preview_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_default_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_default_video_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_default_video_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_60_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_90_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_postproc.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot_longexposure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot_longexposure.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_versions.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_video_dw9800.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_default_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_default_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_common.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_liveshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_default_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_liveshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_common.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_liveshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_snapshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_default_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_hfr_120.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_hfr_60.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_hfr_90.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_liveshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_postproc.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_snapshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_versions.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_zsl_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_zsl_video.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_postproc.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_snapshot.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_versions.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_preview.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_video.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libchrome.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchrome.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcirrusspkrprot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcirrusspkrprot.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcne.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcne.so \
@@ -954,6 +1096,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k3p3_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_m24c64s_eeprom.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8_holitech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_holitech_eeprom.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8_pl2_holitech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_pl2_holitech.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
@@ -976,8 +1124,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/liboemaids_vendor.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemaids_vendor.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/liboemcrypto.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboemcrypto.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libopus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libopus.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libozoaudiodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudiodecoder.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libozoaudioencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libozoaudioencoder.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libpdmapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdmapper.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libpdnotifier.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpdnotifier.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR)/lib/libperfconfig.so \
@@ -1020,7 +1166,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-perfd.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-util.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti-utils.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqti_vndfwk_detect.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtigef.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqtikeymaster4.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib/librcc.so \
@@ -1062,38 +1207,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssc_default_listener.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssd.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libssrec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_amrnb_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_amrnb_common.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_enc_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_enc_common.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_flacdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_ozodecoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_ozodecoder.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_ozoencoder.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_ozoencoder.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_aacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_aacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_aacenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_amrdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_amrnbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrnbenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_amrwbenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_amrwbenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_avcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_avcenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_avcenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_flacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_flacenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_flacenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_g711dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_g711dec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_gsmdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_gsmdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_hevcdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_hevcdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_mp3dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mp3dec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_mpeg2dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg2dec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_mpeg4dec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4dec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_mpeg4enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_mpeg4enc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_opusdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_opusdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_ozodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ozodec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_ozoenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_ozoenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_qtiflacdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_rawdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_rawdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_vorbisdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vorbisdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_vpxdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_soft_vpxenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_soft_vpxenc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefright_softomx_plugin.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefright_softomx_plugin.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstagefrighthw.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib/libstreamparser.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsubsystem_control.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libsurround_3mic_proc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsurround_3mic_proc.so \
@@ -1106,7 +1219,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtinyxml2_1.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib/libtzdrmgenprov.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvndfwk_detect_jni.qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libvorbisidec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvorbisidec.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libvpx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvpx.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libvqzip.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvqzip.so \
@@ -1158,10 +1270,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.display.config@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.display.config@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.config@1.1.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.display.postproc@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.fih.hardware.box@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.fih.hardware.box@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.fih.hardware.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.fih.hardware.ifaa@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.fih.hardware.stabilityDebugCtl@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.fih.hardware.stabilityDebugCtl@1.0-impl.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.fih.hardware.stabilityDebugCtl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.fih.hardware.stabilityDebugCtl@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.nxp.hardware.nfc@1.1.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.pixelworks.hardware.display@1.0.so \
@@ -1180,7 +1289,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.btconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.btconfigstore@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cacert@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.camera.device@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cryptfshw@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.cvp@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
@@ -1230,8 +1338,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.latency@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.latency@2.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.power.pasrmanager@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.power.pasrmanager@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/vendor.qti.voiceprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.voiceprint@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/vndk/libstagefright_foundation.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_foundation.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/vndk/libstagefright_omx.so:$(TARGET_COPY_OUT_VENDOR)/lib/vndk/libstagefright_omx.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/android.hardware.audio.common-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common-util.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/android.hardware.audio.common@2.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@2.0-util.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/android.hardware.audio.common@4.0-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/android.hardware.audio.common@4.0-util.so \
@@ -1257,13 +1363,17 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hal_libnfc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hal_libnfc.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.sdm660.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.audio.effect@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@2.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.audio.effect@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio.effect@4.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@2.0-impl.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.audio@4.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.audio@4.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth.audio@2.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.broadcastradio@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.broadcastradio@1.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.gnss@2.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.gnss@2.0-impl-qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.graphics.mapper@2.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.keymaster@3.0-impl-qti.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/android.hardware.vibrator@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.vibrator@1.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/audio.bluetooth.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/audio.bluetooth_qti.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.bluetooth_qti.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/audio.primary.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/audio.primary.default.so \
@@ -1273,7 +1383,9 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/fingerprint.elan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.elan.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/fingerprint.focaltech.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.focaltech.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/fingerprint.gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3208_b2n.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/fingerprint.gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp3258_drg.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/fingerprint.gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.gxfp5288_c1n.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/gralloc.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/gralloc.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/gralloc.sdm660.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/hwcomposer.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/hwcomposer.sdm660.so \
@@ -1289,7 +1401,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.iop@2.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/vibrator.default.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vibrator.default.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/hw/vulkan.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/vulkan.sdm660.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/lib-imscmservice.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscmservice.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/lib-imsdpl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsdpl.so \
@@ -1340,7 +1451,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libStDrvInt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libStDrvInt.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libSubSystemShutdown.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSubSystemShutdown.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libUBWC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libUBWC.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/lib_bbox_flog.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_bbox_flog.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib64/liba2dpoffload.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdb-fts.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libacdbloader.so \
@@ -1361,12 +1471,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbase64.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbase64.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbatching.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatching.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbatterylistener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbatterylistener.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbbox_recv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbbox_recv.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbbsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbbsutils.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbccQTI.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbccQTI.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbluetooth_audio_session.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbluetooth_audio_session_qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbluetooth_audio_session_qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbt-hidlclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbt-hidlclient.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbthost_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbthost_if.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libbtnv.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libbtnv.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libc2d30_bltlib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2d30_bltlib.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libc2dcolorconvert.so \
@@ -1410,10 +1520,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgcs.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgdtap.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgdtap.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgeofencing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgeofencing.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgf_ca_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3208_b2n.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgf_ca_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp3258_drg.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgf_ca_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_ca_gxfp5288_c1n.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgf_hal_gxfp3208_b2n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3208_b2n.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgf_hal_gxfp3258_drg.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp3258_drg.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgf_hal_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgf_hal_gxfp5288_c1n.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgnss.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnss.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgnsspps.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgnsspps.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgoodixhwfingerprint_gxfp5288_c1n.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgps.utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgps.utils.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgpu_tonemapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgpu_tonemapper.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libgrallocutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgrallocutils.so \
@@ -1508,7 +1623,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libqti-perfd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-perfd.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libqti-util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-util.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libqti-utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti-utils.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libqti_vndfwk_detect.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqti_vndfwk_detect.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libqtigef.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtigef.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libqtikeymaster4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libqtikeymaster4.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/librcc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librcc.so \
@@ -1555,9 +1669,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libssc_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssc_default_listener.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libssd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssd.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libssrec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libssrec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libstagefright_soft_qtiflacdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_soft_qtiflacdec.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libstagefright_softomx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefright_softomx.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libstagefrighthw.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstagefrighthw.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libstreamparser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libstreamparser.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libsubsystem_control.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsubsystem_control.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libsynergy_loc_api.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynergy_loc_api.so \
@@ -1569,9 +1680,10 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libtinycompress.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinycompress.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libtinyxml2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtinyxml2_1.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libtzdrmgenprov.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtzdrmgenprov.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so \
+    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprint@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvendor.goodix.hardware.fingerprintextension@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvideoutils.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/libvndfwk_detect_jni.qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libvndfwk_detect_jni.qti.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libwapi_cert.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwapi_cert.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libwfdhdcpcp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwfdhdcpcp.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/libwifi-hal-ctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libwifi-hal-ctrl.so \
@@ -1610,10 +1722,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.display.config@1.6.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.6.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.display.config@1.7.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.config@1.7.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.display.postproc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.display.postproc@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.fih.hardware.box@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fih.hardware.box@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.fih.hardware.ifaa@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fih.hardware.ifaa@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.fih.hardware.stabilityDebugCtl@1.0-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fih.hardware.stabilityDebugCtl@1.0-impl.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.fih.hardware.stabilityDebugCtl@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.fih.hardware.stabilityDebugCtl@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.nxp.hardware.nfc@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.nxp.hardware.nfc@1.1.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.pixelworks.hardware.display@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.pixelworks.hardware.display@1.0.so \
@@ -1633,7 +1742,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.cacert@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cacert@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.camera.device@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.device@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.cryptfshw@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cryptfshw@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.cvp@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.cvp@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.api@1.0.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.data.cne.internal.constants@1.0.so \
