@@ -18,6 +18,9 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nokia/PL2
 
 PRODUCT_COPY_FILES += \
+    vendor/nokia/PL2/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service.sec:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service.sec \
+    vendor/nokia/PL2/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@1.2-service \
+    vendor/nokia/PL2/proprietary/vendor/bin/sec_nfc_test:$(TARGET_COPY_OUT_VENDOR)/bin/sec_nfc_test \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_1280x720.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2048x1536.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2048x1536.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2592x1944.ncf \
@@ -51,7 +54,14 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2_cn.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/init/hw/android.hardware.nfc@1.2-service.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/android.hardware.nfc@1.2-service.sec.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2_cn.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/permissions/com.gsma.services.nfc.sec.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.gsma.services.nfc.sec.xml \
+    vendor/nokia/PL2/proprietary/vendor/etc/sec_s3nrn81_rfreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/sec_s3nrn81_rfreg.bin \
     vendor/nokia/PL2/proprietary/vendor/etc/sensors/sensor_def_qcomdev_pl2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_pl2.conf \
-    vendor/nokia/PL2/proprietary/vendor/etc/thermal-engine-PL2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-PL2.conf
+    vendor/nokia/PL2/proprietary/vendor/etc/thermal-engine-PL2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-PL2.conf \
+    vendor/nokia/PL2/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin \
+    vendor/nokia/PL2/proprietary/vendor/lib/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci_sec.so \
+    vendor/nokia/PL2/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so
