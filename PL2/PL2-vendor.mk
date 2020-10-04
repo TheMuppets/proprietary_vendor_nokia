@@ -54,7 +54,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/PL2/sdm660-snd-card-pl2/Speaker_cal.acdb \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/audio_platform_info_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/audio_platform_info_pl2_cn.xml \
-    vendor/nokia/PL2/proprietary/vendor/etc/init/hw/android.hardware.nfc@1.2-service.sec.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/android.hardware.nfc@1.2-service.sec.rc \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/mixer_paths_pl2_cn.xml:$(TARGET_COPY_OUT_VENDOR)/etc/mixer_paths_pl2_cn.xml \
     vendor/nokia/PL2/proprietary/vendor/etc/nfcee_access.xml:$(TARGET_COPY_OUT_VENDOR)/etc/nfcee_access.xml \
@@ -63,5 +62,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/etc/sensors/sensor_def_qcomdev_pl2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev_pl2.conf \
     vendor/nokia/PL2/proprietary/vendor/etc/thermal-engine-PL2.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine-PL2.conf \
     vendor/nokia/PL2/proprietary/vendor/firmware/sec_s3nrn81_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/sec_s3nrn81_firmware.bin \
+    vendor/nokia/PL2/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
     vendor/nokia/PL2/proprietary/vendor/lib/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci_sec.so \
     vendor/nokia/PL2/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so
