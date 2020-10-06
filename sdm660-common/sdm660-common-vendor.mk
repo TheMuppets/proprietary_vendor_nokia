@@ -257,6 +257,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/pm-proxy:$(TARGET_COPY_OUT_VENDOR)/bin/pm-proxy \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/pm-service:$(TARGET_COPY_OUT_VENDOR)/bin/pm-service \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/port-bridge:$(TARGET_COPY_OUT_VENDOR)/bin/port-bridge \
+    vendor/nokia/sdm660-common/proprietary/vendor/bin/power_off_alarm:$(TARGET_COPY_OUT_VENDOR)/bin/power_off_alarm \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qdcm_calib_data_DRG_AUO_OTM1911A_FHD_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/bin/qdcm_calib_data_DRG_AUO_OTM1911A_FHD_video_mode_dsi_panel.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qdcm_calib_data_DRG_CTC_OTM1911A_FHD_video_mode_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/bin/qdcm_calib_data_DRG_CTC_OTM1911A_FHD_video_mode_dsi_panel.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/qjpeg-dma-test:$(TARGET_COPY_OUT_VENDOR)/bin/qjpeg-dma-test \
