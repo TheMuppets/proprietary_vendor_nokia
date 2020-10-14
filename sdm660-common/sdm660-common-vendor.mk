@@ -152,16 +152,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/StoreKeybox:$(TARGET_COPY_OUT_VENDOR)/bin/StoreKeybox \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/adpl:$(TARGET_COPY_OUT_VENDOR)/bin/adpl \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/adsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/adsprpcd \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/aheadset_mic_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/aheadset_mic_to_aheadset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/aheadset_mic_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/aheadset_mic_to_aheadset_recv_on.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_aheadset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_aheadset_recv_on.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_dheadset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic1_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic1_to_dheadset_recv_on.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_aheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_aheadset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_aheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_aheadset_recv_on.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_dheadset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/amic2_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/amic2_to_dheadset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/athdiag:$(TARGET_COPY_OUT_VENDOR)/bin/athdiag \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/audioflacapp:$(TARGET_COPY_OUT_VENDOR)/bin/audioflacapp \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cdsprpcd:$(TARGET_COPY_OUT_VENDOR)/bin/cdsprpcd \
@@ -169,20 +159,12 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cnss-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/cnss-daemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/cplay:$(TARGET_COPY_OUT_VENDOR)/bin/cplay \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/csysservice:$(TARGET_COPY_OUT_VENDOR)/bin/csysservice \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dheadset_mic_to_dheadset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dheadset_mic_to_dheadset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dheadset_mic_to_dheadset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dheadset_mic_to_dheadset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_callback_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_callback_sample \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_dci_sample:$(TARGET_COPY_OUT_VENDOR)/bin/diag_dci_sample \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_klog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_klog \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_mdlog:$(TARGET_COPY_OUT_VENDOR)/bin/diag_mdlog \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_socket_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_socket_log \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/diag_uart_log:$(TARGET_COPY_OUT_VENDOR)/bin/diag_uart_log \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic1_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic1_to_headset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic1_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic1_to_headset_recv_on.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic2_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic2_to_headset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic2_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic2_to_headset_recv_on.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic3_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic3_to_headset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/dmic3_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/dmic3_to_headset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/dpmQmiMgr:$(TARGET_COPY_OUT_VENDOR)/bin/dpmQmiMgr \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/dumpsys:$(TARGET_COPY_OUT_VENDOR)/bin/dumpsys \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/e_loop:$(TARGET_COPY_OUT_VENDOR)/bin/e_loop \
@@ -190,14 +172,11 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fmconfig:$(TARGET_COPY_OUT_VENDOR)/bin/fmconfig \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fmfactorytest:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytest \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fmfactorytestserver:$(TARGET_COPY_OUT_VENDOR)/bin/fmfactorytestserver \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/fqcaudioloopback.sh:$(TARGET_COPY_OUT_VENDOR)/bin/fqcaudioloopback.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/fqctouchpanel:$(TARGET_COPY_OUT_VENDOR)/bin/fqctouchpanel \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/ftmdaemon:$(TARGET_COPY_OUT_VENDOR)/bin/ftmdaemon \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/gf_cmd_test_gxfp3258_drg:$(TARGET_COPY_OUT_VENDOR)/bin/gf_cmd_test_gxfp3258_drg \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/gtptest:$(TARGET_COPY_OUT_VENDOR)/bin/gtptest \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hal_proxy_daemon:$(TARGET_COPY_OUT_VENDOR)/bin/hal_proxy_daemon \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/headset_mic_to_headset_recv_off.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_off.sh \
-    vendor/nokia/sdm660-common/proprietary/vendor/bin/headset_mic_to_headset_recv_on.sh:$(TARGET_COPY_OUT_VENDOR)/bin/headset_mic_to_headset_recv_on.sh \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hvdcp_opti:$(TARGET_COPY_OUT_VENDOR)/bin/hvdcp_opti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/nokia/sdm660-common/proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.2-service.widevine \
