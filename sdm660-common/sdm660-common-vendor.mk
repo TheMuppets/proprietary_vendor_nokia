@@ -195,9 +195,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/calibration_test.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/calibration_test.bin \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/camera_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camera_config.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/mgbeautify_1_2_4_model:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mgbeautify_1_2_4_model \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/s5k3p3_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3p3_chromatix.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/s5k4h8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_chromatix.xml \
-    vendor/nokia/sdm660-common/proprietary/vendor/etc/camera/s5k4h8_pl2_holitech_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k4h8_pl2_holitech_chromatix.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile1.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile2.xml \
     vendor/nokia/sdm660-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/ATT/ATT_profile3.xml \
@@ -434,7 +431,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libacdb-fts.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdb-fts.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libacdbloader.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbloader.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libacdbrtac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libacdbrtac.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libactuator_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libadiertac.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadiertac.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libadm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libadm.so \
@@ -463,78 +459,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libc2dcolorconvert.so:$(TARGET_COPY_OUT_VENDOR)/lib/libc2dcolorconvert.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcdsp_default_listener.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsp_default_listener.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libcdsprpc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libcdsprpc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_common.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_liveshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_snapshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_cpp_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_default_preview_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_default_preview_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_default_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_default_video_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_default_video_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_120_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_120_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_60_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_60_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_hfr_90_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_hfr_90_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_postproc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_snapshot_longexposure.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_snapshot_longexposure.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_versions.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_preview_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k3p3_zsl_video_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3p3_zsl_video_dw9800.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_default_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_default_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_a3_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_common.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_liveshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_snapshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_cpp_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_default_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_liveshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_default_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_a3_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_common.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_liveshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_snapshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_cpp_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_default_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_hfr_120.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_hfr_60.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_hfr_90.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_liveshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_postproc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_snapshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_versions.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_zsl_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_pl2_holitech_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_pl2_holitech_zsl_video.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_postproc.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_snapshot.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_versions.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_preview.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libchromatix_s5k4h8_zsl_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4h8_zsl_video.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib/libconfigdb.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libdataitems.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdataitems.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
@@ -675,12 +599,6 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k3p3.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k3p3_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3_m24c64s_eeprom.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_eeprom.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8_holitech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_holitech_eeprom.so \
-    vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_s5k4h8_pl2_holitech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_pl2_holitech.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/nokia/sdm660-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
