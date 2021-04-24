@@ -6,8 +6,6 @@ PRODUCT_SOONG_NAMESPACES += \
     vendor/nokia/PL2
 
 PRODUCT_COPY_FILES += \
-    vendor/nokia/PL2/proprietary/vendor/bin/hw/android.hardware.nfc@1.2-service.sec:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.nfc@1.2-service.sec \
-    vendor/nokia/PL2/proprietary/vendor/bin/hw/vendor.nxp.hardware.nfc@1.2-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.nxp.hardware.nfc@1.2-service \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_1280x720.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_1280x720.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2048x1536.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2048x1536.ncf \
     vendor/nokia/PL2/proprietary/vendor/etc/PL2/ncf/front/ISO640_2592x1944.ncf:$(TARGET_COPY_OUT_VENDOR)/etc/PL2/ncf/front/ISO640_2592x1944.ncf \
@@ -143,6 +141,4 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_holitech_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_holitech_eeprom.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libmmcamera_s5k4h8_pl2_holitech.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k4h8_pl2_holitech.so \
     vendor/nokia/PL2/proprietary/vendor/lib/libpn553_fw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libpn553_fw.so \
-    vendor/nokia/PL2/proprietary/vendor/lib/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci_sec.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/hw/fingerprint.elan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.elan.so \
-    vendor/nokia/PL2/proprietary/vendor/lib64/nfc_nci_sec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/nfc_nci_sec.so
+    vendor/nokia/PL2/proprietary/vendor/lib64/hw/fingerprint.elan.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/fingerprint.elan.so
